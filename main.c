@@ -7,7 +7,7 @@ void make_upper(char *s);
 int main()
 {
 
-  char s[] = "Some string with many lowercase LETTERS";
+  char s[] = "lower case to uppercase";
   make_upper(s);
   printf("%s\n", s);
 
